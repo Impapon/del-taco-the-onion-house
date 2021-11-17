@@ -1,0 +1,35 @@
+.banner_container {
+  background-image: url(../../../images/bannerbackground.png);
+  height: 350px;
+  background-size: cover;
+}
+.banner__content {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  gap: 10px;
+}
+.banner__content h2 {
+  margin-top: 100px;
+}
+.banner__content input {
+ 
+  border: none;
+  padding: 6px;
+  width: 350px;
+  border-radius: 50px;
+}
+.Search__btn {
+  background-color: rgb(226, 21, 31);
+  border-radius: 50px;
+  direction: none;
+  border: none;
+  font-size: 12px;
+  padding: 8px;
+  width: 90px;
+  color: white;
+}
+.Search__btn:hover {
+  background-color: rgb(194, 14, 23);
+}
