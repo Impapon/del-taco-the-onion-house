@@ -7,6 +7,9 @@ import { Button, Container, Navbar } from 'react-bootstrap';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import Banner from '../Banner/Banner';
 import '../Banner/Banner.css'
+import ItemNav from '../ItemNav/ItemNav';
+import Food from '../../Food/Food';
+import Foods from '../../Foods/Foods';
 
 const Logo = () => {
     return (
@@ -23,22 +26,33 @@ const Logo = () => {
         // </div>
 
 
-       <>
-        <Navbar>
-            <Container>
-                <Navbar.Brand href="#home" className="logo__img"> <img src={logo} alt="" /></Navbar.Brand>
-                
-                <Navbar.Collapse className="logo__nav">
-                    <AddShoppingCartIcon></AddShoppingCartIcon>
-                    <button className="login__btn">Login</button>
-                    <button className="signUP__btn">Sign up</button>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
-        <Container className="banner_container">
-            <Banner/>
-        </Container>
-       </>
+        <>
+            <Navbar>
+                <Container>
+                    <Navbar.Brand href="#home" className="logo__img"> <img src={logo} alt="" /></Navbar.Brand>
+
+                    <Navbar.Collapse className="logo__nav">
+                        <AddShoppingCartIcon></AddShoppingCartIcon>
+                        <button className="login__btn">Login</button>
+                        <button className="signUP__btn">Sign up</button>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+            <div className="banner_container">
+                <Banner />
+            </div>
+
+            <div className="ItemNav__container">
+                <ItemNav />
+            </div>
+
+         
+            <div>
+            <Foods/>
+            </div>
+
+            <button className="checkout__btn">Checkout Your Food</button>
+        </>
 
     );
 };

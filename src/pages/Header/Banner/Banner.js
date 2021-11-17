@@ -5,8 +5,6 @@ import '../Logo/Logo.css'
 
 const Banner = () => {
     return (
-
- 
             <div className="banner__content">
                 <h2>Best Food Waiting For Your Belly</h2>
 
@@ -15,7 +13,6 @@ const Banner = () => {
                     <button className="Search__btn">Search</button>
                 </Form>
             </div>
-
     )
 
 };

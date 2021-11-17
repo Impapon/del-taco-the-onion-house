@@ -1,0 +1,12 @@
+.item__nav a{
+    margin-bottom: 60px;
+    margin-top: 15px;
+    text-decoration: none;
+    color:black;
+    font-weight:700;
+}
+.item__nav a:hover{
+    color:rgb(201, 23, 53);
+    text-decoration: underline;
+    font-weight:1000;
+}

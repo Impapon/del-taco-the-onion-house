@@ -1,7 +1,8 @@
 .banner_container {
   background-image: url(../../../images/bannerbackground.png);
-  height: 350px;
+  height:350px;
   background-size: cover;
+  margin-top:15px;
 }
 .banner__content {
   display: grid;
